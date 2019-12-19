@@ -1,0 +1,47 @@
+
+
+
+body {
+  background-color: black;
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+.image {
+ height: 500px;
+}
+h1 {
+  color: aqua;
+  font: bold;
+  font-family: "eras demi", sans-serif; 
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+h4 {
+  color: azure;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-top: 0px;
+}
+.text {
+  text-align: right;
+}
+  
+.flex {
+  /* background-color: green; */
+  border: 5px solid green;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.icon-container {
+  color:white;
+  font-size: 2em;
+  margin-left:8px;
+  margin-top: 8px;
+  padding:10px;
+  transition: 300ms;
+}
+.icon-container:hover {
+  color:black 
+  transition:300ms;
+}
